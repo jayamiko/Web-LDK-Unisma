@@ -1,30 +1,31 @@
 import React from "react";
-import Heading from "../../common/heading/Heading";
 import "./Hero.css";
 
 const Hero = () => {
   return (
     <>
       <section className="hero">
-        <div className="container">
-          <div className="row">
-            <Heading
-              subtitle="WELCOME TO LDK"
-              title="Bersama Menjalin Ukhuwah Bersatu Dalam Dakwah"
-            />
-            <i>
-              Maka sampaikanlah (Muhammad) secara terang-terangan segala apa
-              yang diperintahkan (kepadamu) dan berpalinglah dari orang yang
-              musyrik <br />
-              (QS. Al-Hijr [15]:94)
-            </i>
-            <div className="button">
-              <button className="primary-btn">
-                GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
-              </button>
-              <button>
-                VIEW COURSE <i className="fa fa-long-arrow-alt-right"></i>
-              </button>
+        <div className="container w-5/6 mx-auto">
+          <div className="mt-60 md:mt-80 grid grid-cols-1 lg:grid-cols-2">
+            <div id="heading" className="font-semibold">
+              <h2 className="text-sky-600">WELCOME TO LDK</h2>
+              <h2 className="text-4xl w-full py-2 md:w-4/5 lg:w-full md:text-5xl">
+                Bersama Menjalin Ukhuwah Bersatu Dalam Dakwah
+              </h2>
+              <i className="font-extralight">
+                Maka sampaikanlah (Muhammad) secara terang-terangan segala apa
+                yang diperintahkan (kepadamu) dan berpalinglah dari orang yang
+                musyrik <br />
+                (QS. Al-Hijr [15]:94)
+              </i>
+              <div className="mt-8 space-x-4">
+                <button className="primary-btn text-xs md:text-base py-3 px-4 md:p-4 rounded-md max-w-sm">
+                  STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
+                </button>
+                <button className="bg-sky-600 text-xs md:text-base py-3 px-4 md:p-4 rounded-md max-w-sm">
+                  LIHAT ANGGOTA <i className="fa fa-long-arrow-alt-right"></i>
+                </button>
+              </div>
             </div>
           </div>
         </div>
