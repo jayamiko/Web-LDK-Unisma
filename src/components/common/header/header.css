@@ -63,12 +63,14 @@ header ul li a:hover {
     font-size: 30px;
     position: absolute;
     right: 0;
+    z-index: 50;
   }
   .mobile-nav {
-    position: absolute;
-    top: 7vh;
+    /* position: absolute; */
+    top: 0;
     left: 0;
     width: 100%;
+    z-index: 50;
     background-color: #1eb2a6;
   }
 }

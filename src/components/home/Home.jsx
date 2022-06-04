@@ -4,7 +4,7 @@ import Hblog from "./Hblog";
 // import HAbout from "./HAbout";
 import Hero from "./hero/Hero";
 // import Hprice from "./Hprice";
-import Testimonal from "./testimonal/Testimonal";
+// import Testimonal from "./testimonal/Testimonal";
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
       <Hero />
       <AboutCard />
       {/* <HAbout /> */}
-      <Testimonal />
+      {/* <Testimonal /> */}
       <Hblog />
       {/* <Hprice /> */}
     </div>
