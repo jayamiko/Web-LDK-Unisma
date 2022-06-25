@@ -2,20 +2,38 @@ export const homeAbout = [
   {
     id: 1,
     cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
-    title: "Online Courses",
-    desc: "Maka sampaikanlah (Muhammad) secara terang-terangan segala apa yang diperintahkan (kepadamu) dan berpalinglah dari orang yang musyrik (QS. Al-Hijr [15]:94)",
+    title: "Departemen Syiar",
+    desc: "Depertemen Syiar adalah yang berwenang menyiarkan LDK ke luar dengan melakukan dakwah umum seperti kajian atau melakukan kegiatan positif untuk kalangan umum",
   },
   {
-    id: 1,
+    id: 2,
     cover: "https://img.icons8.com/ios/80/000000/diploma.png",
-    title: "Earn A Certificates",
-    desc: "Maka sampaikanlah (Muhammad) secara terang-terangan segala apa yang diperintahkan (kepadamu) dan berpalinglah dari orang yang musyrik (QS. Al-Hijr [15]:94)",
+    title: "Departemen Kaderisasi",
+    desc: "Departemen Kaderisasi merupakan jantung bagi keberlanjutan LDK untuk mencetak kader-kader yang siap melanjutkan visi dan misi LDK agar organisasi ini bisa terus berkembang",
   },
   {
-    id: 1,
+    id: 3,
     cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-    title: "Learn with Expert",
-    desc: "Maka sampaikanlah (Muhammad) secara terang-terangan segala apa yang diperintahkan (kepadamu) dan berpalinglah dari orang yang musyrik (QS. Al-Hijr [15]:94)",
+    title: "Departemen Hummed",
+    desc: "Hummed atau Humas dan Media merupakan departemen yang memegang kendali terkait media sosial, dokumentasi kegiatan dan berfungsi sebagai humasnya LDK",
+  },
+  {
+    id: 4,
+    cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
+    title: "Departemen Keputrian",
+    desc: "Departemen yang menjadi ikatan dari akhwat yang bertugas membimbing akhwat agar senantiasa solid dan saling merangkul antar anggota-anggota akhwat",
+  },
+  {
+    id: 5,
+    cover: "https://img.icons8.com/ios/80/000000/diploma.png",
+    title: "Departemen Kesekretariatan",
+    desc: "Departemen Kesekretariatan dalah yang bertugas menjadikan sekretariat LDK menjadi lebih nyaman dan dapat dipergunakan untuk seluruh anggota LDK serta menjaga dan merawat berbagai aset LDK",
+  },
+  {
+    id: 6,
+    cover: "https://img.icons8.com/ios/80/000000/athlete.png",
+    title: "Departemen Perekonomian",
+    desc: "Departemen Perekonomian merupakan sponsorship LDK dimana mereka mencari dana demi kelancaran berbagai kegiatan LDK, mengeluarkan berbagai ide dan pengetahuannya untuk bisa membiayai LDK",
   },
 ];
 export const awrapper = [
@@ -343,7 +361,7 @@ export const blog = [
     com: "3 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b1.webp",
+    cover: "../images/ldk-ikhwan3.jpg",
   },
   {
     id: 2,
@@ -352,7 +370,7 @@ export const blog = [
     com: "5 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b2.webp",
+    cover: "../images/ldk-akhwat1.jpg",
   },
   {
     id: 3,
@@ -361,7 +379,7 @@ export const blog = [
     com: "10 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b3.webp",
+    cover: "../images/ldk-ikhwan4.jpg",
   },
   {
     id: 4,
@@ -370,7 +388,7 @@ export const blog = [
     com: "3 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b4.webp",
+    cover: "../images/ldk-ikhwan5.jpg",
   },
   {
     id: 5,
@@ -379,7 +397,7 @@ export const blog = [
     com: "3 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b5.webp",
+    cover: "../images/ldk-ikhwan6.jpg",
   },
   {
     id: 6,
@@ -388,7 +406,7 @@ export const blog = [
     com: "12 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b6.webp",
+    cover: "../images/ldk-ikhwan7.jpg",
   },
 ];
 export const testimonal = [

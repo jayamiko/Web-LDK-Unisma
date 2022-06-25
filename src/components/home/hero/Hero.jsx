@@ -19,11 +19,8 @@ const Hero = () => {
                 (QS. Al-Hijr [15]:94)
               </i>
               <div className="mt-8 space-x-2">
-                <button className="primary-btn text-xs md:text-base py-3 px-3 md:p-4 rounded-md max-w-sm">
-                  STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
-                </button>
-                <button className="bg-sky-600 text-xs md:text-base py-3 px-3 md:p-4 rounded-md max-w-sm">
-                  LIHAT ANGGOTA <i className="fa fa-long-arrow-alt-right"></i>
+                <button className="bg-cyan-500 text-xs md:text-base py-3 px-10 cursor-pointer hover:scale-105 rounded-md max-w-sm">
+                  JOIN NOW <i className="fa fa-long-arrow-alt-right"></i>
                 </button>
               </div>
             </div>
