@@ -13,7 +13,7 @@ const Header = () => {
       <header className="w-full md:container mx-auto overflow-hidden md:rounded-3xl">
         <nav className={click ? "flex" : "flex flexSB items-center"}>
           <ul
-            className={click ? "mobile-nav" : "flexSB uppercase"}
+            className={click ? "mobile-nav hidden z-50" : "flexSB uppercase"}
             onClick={() => setClick(false)}
           >
             <li>
@@ -23,17 +23,18 @@ const Header = () => {
             </li>
             <li>
               <Link to="/news">
-                <b>Info News</b>
+                <b className="hidden lg:block">Info News</b>
+                <b className="lg:hidden block">News</b>
               </Link>
             </li>
             <li>
-              <Link to="/kegiatan">
-                <b>Kegiatan</b>
+              <Link to="/aktivitas">
+                <b>Aktivitas</b>
               </Link>
             </li>
             <li>
-              <Link to="/artikel">
-                <b>Artikel</b>
+              <Link to="/departemen">
+                <b>Departemen</b>
               </Link>
             </li>
             <li>
@@ -91,22 +92,34 @@ const Header = () => {
               onClick={() => setClick(false)}
             >
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/">
+                  <b>Home</b>
+                </Link>
               </li>
               <li>
-                <Link to="/news">Info News</Link>
+                <Link to="/news">
+                  <b>Info News</b>
+                </Link>
               </li>
               <li>
-                <Link to="/about">Kegiatan</Link>
+                <Link to="/aktivitas">
+                  <b>Aktivitas</b>
+                </Link>
               </li>
               <li>
-                <Link to="/artikel">Artikel</Link>
+                <Link to="/departemen">
+                  <b>Departemen</b>
+                </Link>
               </li>
               <li>
-                <Link to="/dokumentasi">Dokumentasi</Link>
+                <Link to="/documentasi">
+                  <b>Dokumentasi</b>
+                </Link>
               </li>
               <li>
-                <Link to="/journal">About</Link>
+                <Link to="/about">
+                  <b>About</b>
+                </Link>
               </li>
             </ul>
           </div>
