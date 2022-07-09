@@ -1,7 +1,7 @@
 import "./App.css";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import About from "./components/about/About";
-import Hero from "./components/home/hero/Hero";
+import Header from "./components/common/header/Header";
 import CourseHome from "./components/allcourses/CourseHome";
 import Team from "./components/team/Team";
 import Pricing from "./components/pricing/Pricing";
@@ -15,7 +15,7 @@ function App() {
     <>
       <Router>
         <section className="hero">
-          <Hero />
+          <Header />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />

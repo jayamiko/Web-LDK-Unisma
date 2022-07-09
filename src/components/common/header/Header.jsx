@@ -56,8 +56,14 @@ const Header = () => {
             }
           >
             <div className={click ? "hidden" : "md:hidden flex py-5"}>
-              <img src={Logo} className="w-20 sm:w-28 md:w-40" alt="logo-ldk" />
-              <div className="w-full flexSB">
+              <Link to="/">
+                <img
+                  src={Logo}
+                  className="w-20 sm:w-28 md:w-40"
+                  alt="logo-ldk"
+                />
+              </Link>
+              <div className="w-full flexSB font-roboto">
                 <div className="logo flex flex-col my-auto">
                   <h4 className="text-base w-4/5 sm:text-3xl sm:w-full md:text-6xl font-bold">
                     LEMBAGA DAKWAH KAMPUS
@@ -69,13 +75,15 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className={click ? "w-full" : "hidden"}>
+          <div className={click ? "w-full md:hiddenn font-roboto" : "hidden"}>
             <div className={click ? "flex text-white" : "hidden"}>
-              <img
-                src={Logo}
-                className="w-20 sm:w-28 md:w-40 h-20"
-                alt="logo-ldk"
-              />
+              <Link to="/">
+                <img
+                  src={Logo}
+                  className="w-28 sm:w-28 md:w-40 h-24"
+                  alt="logo-ldk"
+                />
+              </Link>
               <div className="w-full flexSB">
                 <div className="logo flex flex-col my-auto">
                   <h4 className="text-xl w-3/4 sm:text-3xl sm:w-full md:text-6xl font-bold">

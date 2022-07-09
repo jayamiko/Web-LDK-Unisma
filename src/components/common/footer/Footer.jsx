@@ -19,10 +19,18 @@ const Footer = () => {
             </p>
 
             <div className="social flex my-auto">
-              <i className="fab fa-facebook-f icon bg-blue-500 text-white hover:text-blue-500 hover:bg-white hover:scale-125"></i>
-              <i className="fab fa-instagram icon bg-pink-500 text-white hover:text-pink-500 hover:bg-white hover:scale-125"></i>
-              <i className="fab fa-twitter icon bg-cyan-400 text-white hover:text-cyan-400 hover:bg-white hover:scale-125"></i>
-              <i className="fab fa-youtube icon bg-red-500 text-white hover:text-red-500 hover:bg-white hover:scale-125"></i>
+              <a href="https://web.facebook.com/ldkunisma.bekasi?_rdc=1&_rdr/">
+                <i className="fab fa-facebook-f icon bg-blue-500 text-white hover:text-blue-500 hover:bg-white hover:scale-125"></i>
+              </a>
+              <a href="https://www.instagram.com/ldkunisma45bekasi/">
+                <i className="fab fa-instagram icon bg-pink-500 text-white hover:text-pink-500 hover:bg-white hover:scale-125"></i>
+              </a>
+              <a href="https://twitter.com/ldk_unisma45">
+                <i className="fab fa-twitter icon bg-cyan-400 text-white hover:text-cyan-400 hover:bg-white hover:scale-125"></i>
+              </a>
+              <a href="https://www.youtube.com/channel/UCkpwGcpCbk2893j5qFyxePA">
+                <i className="fab fa-youtube icon bg-red-500 text-white hover:text-red-500 hover:bg-white hover:scale-125"></i>
+              </a>
             </div>
           </div>
 
@@ -45,9 +53,9 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div className="text-center text-white bg-gray-700 py-5 italic">
-        <p className="text-sm">
-          Copyright @ 2022 LDK Al-Ukhuwah UNISMA BEKASI All Right Reserved
+      <div className="text-center text-white bg-gray-700 py-5">
+        <p>
+          Copyright @ 2022 LDK Al-Ukhuwah Unisma '45 Bekasi All Right Reserved
         </p>
       </div>
     </>

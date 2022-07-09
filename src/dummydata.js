@@ -36,6 +36,26 @@ export const homeAbout = [
     desc: "Departemen Perekonomian merupakan sponsorship LDK dimana mereka mencari dana demi kelancaran berbagai kegiatan LDK, mengeluarkan berbagai ide dan pengetahuannya untuk bisa membiayai LDK",
   },
 ];
+export const materialsAbout = [
+  {
+    id: "material-1",
+    title: "A. Selayang Pandang",
+    t1: null,
+    p1: "Lembaga Dakwah Kampus (LDK) Al-Ukhuwah merupakan salah satu Unit Kegiatan Mahasiswa (UKM) yang ada di kampus Universitas Islam ‘45’ Bekasi. LDK Al-Ukhuwah adalah UKM yang bergerak di bidang pendidikan keilmuan agama & umum, pembinaan karakter & mental, penguatan rohani & jasmani, penembangan prestasi, dan pengasahan kreativitas",
+    p2: "LDK Al-Ukhuwah hadir untuk mengantisipasi globalisasi yang menyerang para pemuda khususnya mahasiswa dan mahasiswi Universitas Islam ‘45 Bekasi. Dengan semangat 45 berlandaskan nilai-nilai islam, LDK Al-Ukhuwah berusaha menghadapi tantangan global dengan ikut serta membina para pemuda baik dari segi intelektual, moral, maupun mental untuk dapat bersaing positif di dalam perkembangan zaman.",
+    p3: "LDK Al-Ukhuwah melakukan pembinaan pada tiga aspek penting manusia, yaitu Fikriyah (Akal), Jasadiyah (Jasmani) dan Ruhiyah (Rohani) agar dapat menciptakan generasi “Anasir At-Tghyir” atau “Agent of Change” untuk perubahan yang lebih baik.",
+    p4: "",
+  },
+  {
+    id: "material-2",
+    title: "B. Sejarah LDK",
+    t1: null,
+    p1: "Lembaga Dakwah Kampus (LDK) Al-Ukhuwah merupakan salah satu Unit Kegiatan Mahasiswa (UKM) yang ada di kampus Universitas Islam ‘45’ Bekasi. LDK Al-Ukhuwah adalah UKM yang bergerak di bidang pendidikan keilmuan agama & umum, pembinaan karakter & mental, penguatan rohani & jasmani, penembangan prestasi, dan pengasahan kreativitas",
+    p2: "LDK Al-Ukhuwah hadir untuk mengantisipasi globalisasi yang menyerang para pemuda khususnya mahasiswa dan mahasiswi Universitas Islam ‘45 Bekasi. Dengan semangat 45 berlandaskan nilai-nilai islam, LDK Al-Ukhuwah berusaha menghadapi tantangan global dengan ikut serta membina para pemuda baik dari segi intelektual, moral, maupun mental untuk dapat bersaing positif di dalam perkembangan zaman.",
+    p3: "LDK Al-Ukhuwah melakukan pembinaan pada tiga aspek penting manusia, yaitu Fikriyah (Akal), Jasadiyah (Jasmani) dan Ruhiyah (Rohani) agar dapat menciptakan generasi “Anasir At-Tghyir” atau “Agent of Change” untuk perubahan yang lebih baik.",
+    p4: "",
+  },
+];
 export const awrapper = [
   {
     cover:
@@ -430,5 +450,32 @@ export const testimonal = [
     post: "MARKETING MANAGER",
     desc: "Maka sampaikanlah (Muhammad) secara terang-terangan segala apa yang diperintahkan (kepadamu) dan berpalinglah dari orang yang musyrik (QS. Al-Hijr [15]:94)",
     cover: "./images/testo/t3.webp",
+  },
+];
+
+export const tags = [
+  {
+    id: 1,
+    name: "#LDK_AlUkhuwah",
+  },
+  {
+    id: 2,
+    name: "#LDK_UNISMA",
+  },
+  {
+    id: 3,
+    name: "#LDKers",
+  },
+  {
+    id: 4,
+    name: "#CerdasKreatifBersahabat",
+  },
+  {
+    id: 5,
+    name: "#TaatDekatBermanfaat",
+  },
+  {
+    id: 6,
+    name: "#MuslimBersahabat",
   },
 ];
