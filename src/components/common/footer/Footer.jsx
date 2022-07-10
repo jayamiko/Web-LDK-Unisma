@@ -5,15 +5,15 @@ const Footer = () => {
   return (
     <>
       <footer className="bg-cyan-500">
-        <div className="container mx-auto flexSB py-10">
-          <div className="box logo w-1/4">
+        <div className="container mx-auto flex flex-col space-y-10 sm:spce-y-0 sm:flex-row py-10 px-4 sm:px-0">
+          <div className="box logo w-full sm:w-1/3">
             <h2 className="text-xl font-bold w-fit text-white">
               LDK Al-Ukhuwah
             </h2>
-            <span className="italic w-fit text-white">
+            <h2 className="italic font-medium w-fit text-white md:text-lg xl:text-xl">
               Universitas Islam '45 Bekasi
-            </span>
-            <p className="text-sm w-4/5 text-white">
+            </h2>
+            <p className="md:text-lg xl:text-xl w-4/5 text-white">
               A small river named Duden flows by their place and supplies it
               with the necessary regelialia.
             </p>
@@ -34,30 +34,57 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="box last w-1/4 text-white">
-            <h3>Have a Questions?</h3>
-            <ul>
+          <div className="w-full sm:w-1/3 text-white px-2 md:text-lg xl:text-xl">
+            <h2 className="text-xl font-semibold">
+              Departemen di LDK Al Ukhuwah
+            </h2>
+            <ul className="flex sm:flex-col space-x-8 sm:space-x-0">
+              <div>
+                <li className="m-0 cursor-pointer hover:text-slate-200 hover:font-semibold">
+                  Kesekretariatan
+                </li>
+                <li className="m-0 cursor-pointer hover:text-slate-200 hover:font-semibold">
+                  Perekonomian
+                </li>
+                <li className="m-0 cursor-pointer hover:text-slate-200 hover:font-semibold">
+                  Kaderisasi
+                </li>
+              </div>
+              <div>
+                <li className="m-0 cursor-pointer hover:text-slate-200 hover:font-semibold">
+                  Humas Media
+                </li>
+                <li className="m-0 cursor-pointer hover:text-slate-200 hover:font-semibold">
+                  Keputrian
+                </li>
+              </div>
+            </ul>
+          </div>
+
+          <div className="w-full sm:w-1/3 text-white">
+            <h2 className="text-xl font-semibold">Have a Questions?</h2>
+            <ul className="list-outside md:text-lg xl:text-xl">
               <li>
-                <i className="fa fa-map"></i>
+                <i className="fa fa-map mr-2"></i>
                 Jl. Cut Meutia No. 83 Bekasi Timur
               </li>
               <li>
-                <i className="fa fa-phone-alt"></i>
+                <i className="fa fa-phone-alt mr-2"></i>
                 0855-9163-3631
               </li>
               <li>
-                <i className="fa fa-paper-plane"></i>
+                <i className="fa fa-paper-plane mr-2"></i>
                 ldkunismabekasi@gmail.com
               </li>
             </ul>
           </div>
         </div>
+        <div className="text-center text-white bg-gray-700 py-5">
+          <p className="text-sm sm:text-base">
+            Copyright @ 2022 LDK Al-Ukhuwah Unisma '45 Bekasi All Right Reserved
+          </p>
+        </div>
       </footer>
-      <div className="text-center text-white bg-gray-700 py-5">
-        <p>
-          Copyright @ 2022 LDK Al-Ukhuwah Unisma '45 Bekasi All Right Reserved
-        </p>
-      </div>
     </>
   );
 };

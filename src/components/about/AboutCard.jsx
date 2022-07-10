@@ -5,19 +5,19 @@ import "./aboutCard.css";
 
 const AboutCard = () => {
   return (
-    <div className="flex mb-24 mx-auto container">
-      <div className="w-2/4 py-5">
+    <div className="flex mb-24 flex-col lg:pt-20 sm:flex-row sm:space-x-10 mx-auto container px-4 sm:px-0">
+      <div className="w-full sm:w-2/4 py-5">
         <div className="about__img">
           <img src="/images/LDK4.jpg" alt="" />
         </div>
       </div>
 
-      <div className="w-2/3">
-        <div className="about__content">
+      <div className="w-full sm:w-2/3">
+        <div>
           <h1 className="text-cyan-500 text-2xl my-5">Apa Itu UKM LDK ?</h1>
           <p className="text-sm md:text-lg text-black">
             Lembaga Dakwah Kampus (LDK) Al-Ukhuwah merupakan salah satu Unit
-            Kegiatan Mahasiswa (UKM) yang ada di kampus Universitas Islam ‘45’
+            Kegiatan Mahasiswa (UKM) yang ada di kampus Universitas Islam ‘45
             Bekasi. LDK Al-Ukhuwah adalah UKM yang bergerak di bidang pendidikan
             keilmuan agama & umum, pembinaan karakter & mental, penguatan rohani
             & jasmani, penembangan prestasi, dan pengasahan kreativitas.
@@ -27,36 +27,36 @@ const AboutCard = () => {
             <div className="d-flex gap-5 align-items-center pr-10 py-5">
               <div className="single__counter">
                 <span className="counter text-cyan-500">
-                  <CountUp start={0} end={25} duration={2} suffix="K" />
+                  <CountUp start={0} end={40} duration={2} suffix="+" />
                 </span>
 
-                <p className="counter__title text-sm">Completed Projects</p>
+                <p className="counter__title text-sm">Anggota</p>
               </div>
 
               <div className="single__counter">
                 <span className="counter text-cyan-500">
-                  <CountUp start={0} end={12} duration={2} suffix="M" />
+                  <CountUp start={0} end={8} duration={2} suffix="" />
                 </span>
 
-                <p className="counter__title text-sm">Patient Around World</p>
+                <p className="counter__title text-sm">Aktivitas Kegiatan</p>
               </div>
             </div>
 
             <div className=" d-flex gap-5 align-items-center pl-10 py-5">
               <div className="single__counter">
                 <span className="counter text-cyan-500">
-                  <CountUp start={0} end={95} duration={2} suffix="M" />
+                  <CountUp start={0} end={2} duration={2} suffix="K" />
                 </span>
 
-                <p className="counter__title text-sm">Ideas Raised Funds</p>
+                <p className="counter__title text-sm">Followers Media Sosial</p>
               </div>
 
               <div className="single__counter">
                 <span className="counter text-cyan-500">
-                  <CountUp start={0} end={5} duration={2} suffix="K" />
+                  <CountUp start={0} end={8} duration={2} suffix="" />
                 </span>
 
-                <p className="counter__title text-sm">Categories Served</p>
+                <p className="counter__title text-sm">Departemen</p>
               </div>
             </div>
           </div>

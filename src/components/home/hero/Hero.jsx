@@ -4,13 +4,13 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <>
-      <div className="container w-full mx-auto mb-40">
+      <div className="container w-full mx-auto sm:mt-20 md:mt-0 mb-40">
         <div className="mt-10 grid grid-cols-1 lg:grid-cols-1">
           <div id="heading" className="text-white w-2/3 mx-auto">
             <h2 className="text-sky-600 brightness-110 font-semibold text-2xl text-center">
               #CerdasKreatifBersahabat
             </h2>
-            <h2 className="text-center py-2 w-full font-extrabold text-4xl sm:text-4xl md:text-5xl xl:text-6xl">
+            <h2 className="text-center py-2 w-full font-extrabold text-4xl sm:text-4xl xl:text-6xl">
               Bersama Menjalin Ukhuwah Bersatu Dalam Dakwah
             </h2>
             <p className="font-extralight italic w-full mx-auto text-base md:text-lg xl:text-xl text-center">
