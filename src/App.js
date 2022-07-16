@@ -9,6 +9,8 @@ import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/common/footer/Footer";
 import Home from "./components/home/Home";
+import Registration from "./components/registration/Registration";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
+            <Route exact path="/registration" component={Registration} />
             <Route exact path="/courses" component={CourseHome} />
             <Route exact path="/team" component={Team} />
             <Route exact path="/pricing" component={Pricing} />

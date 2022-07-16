@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.51cc4d7d.css",
-    "main.js": "/static/js/main.30f97d58.js",
+    "main.css": "/static/css/main.4db1ec95.css",
+    "main.js": "/static/js/main.7d7e67db.js",
     "static/media/ldk-icon.png": "/static/media/ldk-icon.55d661b566cfeb0f6cf9.png",
     "static/media/back.webp": "/static/media/back.93d3f802b480eeabae07.webp",
     "static/media/LDK-Flag.jpg": "/static/media/LDK-Flag.bfd27aa72d0c8c765fd2.jpg",
     "static/media/LDK1.jpg": "/static/media/LDK1.ea0a6328a6864747f64c.jpg",
     "index.html": "/index.html",
-    "main.51cc4d7d.css.map": "/static/css/main.51cc4d7d.css.map",
-    "main.30f97d58.js.map": "/static/js/main.30f97d58.js.map"
+    "main.4db1ec95.css.map": "/static/css/main.4db1ec95.css.map",
+    "main.7d7e67db.js.map": "/static/js/main.7d7e67db.js.map"
   },
   "entrypoints": [
-    "static/css/main.51cc4d7d.css",
-    "static/js/main.30f97d58.js"
+    "static/css/main.4db1ec95.css",
+    "static/js/main.7d7e67db.js"
   ]
 }
