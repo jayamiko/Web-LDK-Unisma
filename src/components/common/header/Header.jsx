@@ -4,14 +4,16 @@ import Head from "./Head";
 import Logo from "../../../image/ldk-icon.png";
 import "./header.css";
 
+const pathname = window.location.pathname
+
 const Header = () => {
   const [click, setClick] = useState(false);
 
   return (
     <div className="flex flex-col-reverse md:flex-col">
       <Head />
-      <header className="w-full md:container mx-auto overflow-hidden md:rounded-3xl">
-        <nav className={click ? "flex" : "flex flexSB items-center"}>
+      <header className={pathname === '/documentasi' ? 'md:hidden max-h-32' : "w-full md:container mx-auto overflow-hidden md:rounded-3xl"}>
+        <nav className={click ? "flex" : "flex flexSB items-center max-h-32"}>
           <ul
             className={click ? "mobile-nav hidden z-50" : "flexSB uppercase"}
             onClick={() => setClick(false)}
@@ -52,10 +54,10 @@ const Header = () => {
             className={
               click
                 ? "hidden"
-                : "start md:p-0 w-full float-right h-full lg:hidden"
+                : "start md:p-0 w-full float-right max-h-32 h-full lg:hidden"
             }
           >
-            <div className={click ? "hidden" : "md:hidden flex py-5"}>
+            <div className={click ? "hidden" : "md:hidden flex py-2"}>
               <Link to="/">
                 <img
                   src={Logo}

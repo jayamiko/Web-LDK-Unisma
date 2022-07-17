@@ -79,7 +79,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="text-center text-white bg-gray-700 py-5">
+        <div className="text-center text-white bg-gray-700 py-2">
           <p className="text-sm sm:text-base">
             Copyright @ 2022 LDK Al-Ukhuwah Unisma '45 Bekasi All Right Reserved
           </p>

@@ -1,5 +1,16 @@
-.hero {
+.heroGeneral {
   background-image: url("../../../../public/images/LDK-Flag.jpg");
+  background-size: cover;
+  background-position-y: bottom;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.heroRegistration {
+  background-image: url("../../../../public/images/open_sipmb_3.jpg");
   background-size: cover;
   background-position-y: bottom;
   position: absolute;

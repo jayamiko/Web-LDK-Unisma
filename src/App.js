@@ -13,10 +13,11 @@ import Registration from "./components/registration/Registration";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
+  const pathname = window.location.pathname
   return (
     <>
       <Router>
-        <section className="hero">
+        <section className={pathname === "/documentasi" ? "heroRegistration" : "heroGeneral"}>
           <Header />
           <Switch>
             <Route exact path="/" component={Home} />
