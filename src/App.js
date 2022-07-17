@@ -14,6 +14,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const pathname = window.location.pathname
+  console.log(pathname)
+  console.log(pathname === "/documentasi")
   return (
     <>
       <Router>
