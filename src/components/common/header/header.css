@@ -11,6 +11,11 @@
   margin-left: 10px;
 }
 
+.head .icon:hover {
+  color: #000 !important;
+  background: #fff !important;
+}
+
 /*--------header------------*/
 header {
   background-color: rgba(255, 255, 255, 0.2);

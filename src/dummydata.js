@@ -211,8 +211,8 @@ export const coursesCard = [
 ];
 export const online = [
   {
-    cover: "./images/courses/online/o1.png",
-    hoverCover: "./images/courses/online/o1.1.png",
+    cover: "./images/courses/tasqif.jpg",
+    hoverCover: "./images/courses/tasqif.jpg",
     courseName: "UI/UX Design Courses",
     course: "25 Courses",
   },
