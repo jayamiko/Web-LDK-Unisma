@@ -98,9 +98,9 @@ function RegistrationPage() {
   
   return (
     <>
-      <section className='heroRegistration z-10'>
-        <div className="container mx-auto flex flex-col md:justify-center h-full mt-32 md:mt-0 text-white px-6 py-8 md:p-0">
-          <form name="submit-to-google-sheet" className='sm:w-2/3 md:w-3/6 lg:w-2/5 xl:w-2/6 space-y-1' method="post" ref={formRef} onSubmit={handleSubmit}>
+      <section className='heroRegistration z-10 border-2 border-red-500'>
+        <div className="container border-2 border-orange-500 mx-auto flex flex-col md:justify-center h-full mt-32 md:mt-0 text-white px-6 py-8 md:p-0">
+          <form name="submit-to-google-sheet" className='border-2 border-blue-500 sm:w-2/3 md:w-3/6 lg:w-2/5 xl:w-2/6 space-y-1' method="post" ref={formRef} onSubmit={handleSubmit}>
             <h2 className='font-titan text-2xl mb-1 tracking-wide'>Bergabung Bersama Kami!</h2>
             <div>
               <label htmlFor="fullName">Nama Lengkap</label>
@@ -165,7 +165,7 @@ function RegistrationPage() {
           </form>
         </div>
       </section>
-      <div className='h-screen'></div>
+      <div className='h-screen border-2 border-black'></div>
       <div className='container mx-auto mt-32 md:mt-0' style={{ height: 630, width: '100%' }}>
         <DataGrid
           rows={dataRow}

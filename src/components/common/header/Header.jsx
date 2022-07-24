@@ -10,7 +10,7 @@ const Header = () => {
   const [click, setClick] = useState(false);
 
   return (
-    <div className="flex flex-col-reverse md:flex-col relative z-50">
+    <div className="flex flex-col-reverse md:flex-col relative z-50 border-2 border-yellow-700">
       <Head />
       <header className={pathname === '/documentasi' ? 'md:hidden max-h-32' : "w-full md:container mx-auto overflow-hidden md:rounded-3xl"}>
         <nav className={click ? "flex" : "flex flexSB items-center max-h-32"}>
