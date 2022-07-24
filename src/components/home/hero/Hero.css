@@ -21,7 +21,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .hero {
+  .heroGeneral {
     background-attachment: scroll;
     height: 85vh;
     background-position: left bottom;
@@ -32,7 +32,7 @@
   .margin {
     height: 40vh;
   }
-  .hero {
+  .heroGeneral {
     background-attachment: scroll;
     background-position-x: left;
     background-position-y: bottom;
@@ -42,12 +42,18 @@
 
 @media screen and (max-width: 550px) {
   .margin {
-    height: 4\0vh;
+    height: 40vh;
   }
-  .hero {
+  .heroGeneral {
     background-attachment: scroll;
     background-position-x: left;
     background-position-y: bottom;
     height: 80vh;
+  }
+  .heroRegistration {
+    background-attachment: scroll;
+    background-position-x: left;
+    background-position-y: bottom;
+    height: 100vh;
   }
 }

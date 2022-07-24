@@ -33,13 +33,10 @@ body {
   border-radius: 50%;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.3);
-  color: #1eb2a6;
   transition: 0.5s;
 }
 .icon:hover {
   cursor: pointer;
-  background-color: #1eb2a6;
-  color: #fff;
 }
 a {
   text-decoration: none;
@@ -50,23 +47,27 @@ li {
 .row {
   width: 50%;
 }
-button {
-  padding: 17px 30px;
-  background-color: #fff;
-  color: #1eb2a6;
-  font-weight: 600;
-  border: none;
-  margin: 30px 10px 0 0;
-  border-radius: 3px;
-  cursor: pointer;
-  box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
-  transition: 0.5s;
+.slide-right {
+  width: 100%;
+  overflow: hidden;
+  margin-left: -100px;
+  max-width: 200px;
+  border: solid white 1px;
 }
-button i {
-  margin-left: 20px;
+
+.slide-right h2 {
+  animation: 2s slide-right;
+  animation-delay: 2s;
 }
-button:hover {
-  box-shadow: none;
+
+@keyframes slide-right {
+  from {
+    margin-left: -200px;
+  }
+
+  to {
+    margin-left: 0%;
+  }
 }
 .primary-btn {
   background-color: #1eb2a6;
@@ -94,18 +95,6 @@ p {
   color: #fff;
   text-align: center;
 }
-.back h1 {
-  font-size: 100px;
-  font-weight: 400;
-}
-.back h2 {
-  font-weight: 500;
-  font-size: 17px;
-  text-transform: uppercase;
-}
-.margin {
-  margin-top: 35.3%;
-}
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -130,14 +119,7 @@ p {
   background-color: #1eb2a6;
   color: #fff;
 }
-.grid3 {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 10px;
-}
-.padding {
-  padding: 80px 0;
-}
+
 .shadow {
   box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
   background-color: #fff;

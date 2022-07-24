@@ -21,18 +21,18 @@ const Head = () => {
             <span>UNIVERSITAS ISLAM '45 BEKASI</span>
           </div>
 
-          <div className="social flex my-auto">
+          <div className="flex my-auto">
             <a href="https://web.facebook.com/ldkunisma.bekasi?_rdc=1&_rdr/">
-              <i className="fab fa-facebook-f icon hover:bg-blue-500 hover:text-white text-blue-500 bg-white hover:scale-125"></i>
+              <i className="fab fa-facebook-f icon bg-blue-500 text-white hover:scale-125"></i>
             </a>
             <a href="https://www.instagram.com/ldkunisma45bekasi/">
-              <i className="fab fa-instagram icon hover:bg-pink-500 hover:text-white text-pink-500 bg-white hover:scale-125"></i>
+              <i className="fab fa-instagram icon bg-pink-500 text-white hover:scale-125"></i>
             </a>
             <a href="https://twitter.com/ldk_unisma45">
-              <i className="fab fa-twitter icon hover:bg-cyan-400 hover:text-white text-cyan-400 bg-white hover:scale-125"></i>
+              <i className="fab fa-twitter icon bg-cyan-400 text-white hover:scale-125"></i>
             </a>
             <a href="https://www.youtube.com/channel/UCkpwGcpCbk2893j5qFyxePA">
-              <i className="fab fa-youtube icon hover:bg-red-500 hover:text-white text-red-500 bg-white hover:scale-125"></i>
+              <i className="fab fa-youtube icon bg-red-500 text-white hover:scale-125"></i>
             </a>
           </div>
         </div>

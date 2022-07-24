@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <Router>
-        <section className={pathname === "/documentasi" ? "heroRegistration" : "heroGeneral"}>
+        <section className={pathname === "/documentasi" ? "heroRegistration absolute" : "heroGeneral"}>
           <Header />
           <Switch>
             <Route exact path="/" component={Home} />

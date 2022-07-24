@@ -63,8 +63,6 @@ function RegistrationPage() {
     })
   }, [personalMember, url, formRef]);
 
-  console.log(dataCSV)
-
   const columns = [
     { field: 'id', headerName: 'No', width: 80 },
     { field: 'fullName', headerName: 'Full Name', width: 300 },
@@ -117,7 +115,7 @@ function RegistrationPage() {
             </div>
             <div className='w-3/6'>
               <label htmlFor="whatsapp">Whatsapp</label>
-              <input type="text" className="form-control" value={personalMember.whatsapp} id="whatsapp" name="whatsapp" placeholder="+62 / 08" onChange={handleChange}/>
+              <input type="text" className="form-control" value={personalMember.whatsapp} id="whatsapp" name="whatsapp" placeholder="08xxxxxxxx" onChange={handleChange}/>
             </div>
           </div>
           <div>
