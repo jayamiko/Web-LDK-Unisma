@@ -3,7 +3,7 @@ import "./Hero.css";
 
 const Hero = ({bgHero}) => {
   return (
-    <section className={`${bgHero} -z-10`}></section>
+    <div className={`${bgHero} -z-10`}></div>
   );
 };
 
