@@ -66,17 +66,17 @@ function RegistrationPage() {
 
   const columns = [
     { field: 'id', headerName: 'No', width: 80 },
-    { field: 'fullName', headerName: 'Full Name', width: 300 },
+    { field: 'fullName', headerName: 'Full Name', width: 350 },
     { field: 'usia', headerName: 'Usia', width: 80 },
     {
       field: 'fakultas',
       headerName: 'Fakultas/Jurusan',
-      width: 280,
+      width: 320,
     },
     {
       field: 'angkatan',
       headerName: 'Angkatan',
-      width: 100,
+      width: 200,
     },
     {
       field: 'timestamp',
@@ -99,18 +99,18 @@ function RegistrationPage() {
   return (
     <>
       <Hero bgHero='heroRegistration' />
-      <div className="container mx-auto mb-2 text-white px-6 py-8 md:p-0">
-        <h2 className='font-titan text-2xl mb-1 tracking-wide'>Bergabung Bersama Kami!</h2>
-        <form name="submit-to-google-sheet" className='sm:w-2/3 md:w-3/6 lg:w-2/5 xl:w-2/6 space-y-1' method="post" ref={formRef} onSubmit={handleSubmit}>
-          <div className="form-group">
+      <div className="container absolute h-screen lg:mx-32 my-2 text-white px-6 py-8 md:p-0">
+        <h2 className='font-titan text-2xl mt-10 mb-1 tracking-wide'>Bergabung Bersama Kami!</h2>
+        <form name="submit-to-google-sheet" className='absolute sm:w-2/3 md:w-3/6 lg:w-2/5 xl:w-2/6 space-y-1 md:mr-4' method="post" ref={formRef} onSubmit={handleSubmit}>
+          <div>
             <label htmlFor="fullName">Nama Lengkap</label>
             <input type="text" className="form-control" value={personalMember.fullName} id="fullName" name="fullName" placeholder="Nama Lengkap" onChange={handleChange}/>
           </div>
-          <div className="form-group">
+          <div>
             <label htmlFor="email">Alamat Email</label>
             <input type="email" className="form-control" value={personalMember.email} id="email" name="email" placeholder="Enter email" onChange={handleChange}/>
           </div>
-          <div className="form-group flex justify-between">
+          <div className="flex justify-between">
             <div className='w-2/5'>
               <label htmlFor="usia">Usia</label>
               <input type="text" className="form-control" value={personalMember.age} id="usia" name="usia" placeholder="cth : 19" onChange={handleChange}/>
@@ -137,25 +137,25 @@ function RegistrationPage() {
               </div>
             </div>
           </div>
-          <div className="form-group">
+          <div>
             <label htmlFor="angkatan">Angkatan</label>
             <input type="text" className="form-control" value={personalMember.study} id="angkatan" name="angkatan" placeholder="cth: 2019" onChange={handleChange} />
           </div>
-          <div className="form-group">
+          <div>
             <label htmlFor="jurusan">Jurusan</label>
             <input type="text" className="form-control" value={personalMember.study} id="jurusan" name="jurusan" placeholder="Jurusan" onChange={handleChange} />
           </div>
           <button type="submit" className="btn bg-[#1eb2a6] my-2 text-white px-5 uppercase">Submit</button>
         </form>
-
-        <div className='mt-32' style={{ height: 630, width: '100%' }}>
-          <DataGrid
-            rows={dataRow}
-            columns={columns}
-            pageSize={10}
-            rowsPerPageOptions={[5]}
-          />
-        </div>
+      </div>
+      <div className='h-screen lg:h-[80vh]'></div>
+      <div className='container mx-auto' style={{ height: 630, width: '100%' }}>
+        <DataGrid
+          rows={dataRow}
+          columns={columns}
+          pageSize={10}
+          rowsPerPageOptions={[5]}
+        />
       </div>
     </>
   );
