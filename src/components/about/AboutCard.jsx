@@ -6,7 +6,7 @@ import "./aboutCard.css";
 const AboutCard = () => {
   return (
     <div className="flex mb-24 flex-col lg:pt-20 sm:flex-row sm:space-x-10 mx-auto container px-4 sm:px-0">
-      <div className="w-full sm:w-2/4 py-5">
+      <div className="w-full sm:w-2/4 md:py-5">
         <div className="about__img">
           <img src="/images/LDK4.jpg" alt="" />
         </div>
@@ -14,7 +14,7 @@ const AboutCard = () => {
 
       <div className="w-full sm:w-2/3">
         <div>
-          <h1 className="text-cyan-500 text-2xl my-5">Apa Itu UKM LDK ?</h1>
+          <h1 className="text-cyan-500 text-2xl my-2 md:my-5">Apa Itu UKM LDK ?</h1>
           <p className="text-sm md:text-lg text-black">
             Lembaga Dakwah Kampus (LDK) Al-Ukhuwah merupakan salah satu Unit
             Kegiatan Mahasiswa (UKM) yang ada di kampus Universitas Islam ‘45
