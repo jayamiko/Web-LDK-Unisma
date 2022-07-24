@@ -1,6 +1,7 @@
 import React, {useState, useRef, useEffect} from 'react';
 import Papa from 'papaparse';
 import { DataGrid } from '@mui/x-data-grid';
+import Hero from '../home/hero/Hero';
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxBND5Bi5PYyIYkqwU-bnjaOhIe2EfG79qs1aVsryR8_MGOy-8h1_IyFYyJ1spb0EXD/exec'
 const url = `https://docs.google.com/spreadsheets/d/e/2PACX-1vQak6neQTX9aNzNmi7hBJnzSRkKsFlvOQeg2TISgnZiW3n5C4LvMjZjj9WSYVFI7HIsSPMY3Ej1JkeW/pub?gid=0&single=true&output=csv`
@@ -97,6 +98,7 @@ function RegistrationPage() {
   
   return (
     <>
+      <Hero bgHero='heroRegistration' />
       <div className="container mx-auto mb-2 text-white px-6 py-8 md:p-0">
         <h2 className='font-titan text-2xl mb-1 tracking-wide'>Bergabung Bersama Kami!</h2>
         <form name="submit-to-google-sheet" className='sm:w-2/3 md:w-3/6 lg:w-2/5 xl:w-2/6 space-y-1' method="post" ref={formRef} onSubmit={handleSubmit}>

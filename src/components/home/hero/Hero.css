@@ -1,4 +1,4 @@
-.heroGeneral {
+.heroHome {
   background-image: url("../../../../public/images/LDK-Flag.jpg");
   background-size: cover;
   background-position-y: bottom;
@@ -21,7 +21,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .heroGeneral {
+  .heroHome {
     background-attachment: scroll;
     height: 85vh;
     background-position: left bottom;
@@ -32,7 +32,7 @@
   .margin {
     height: 40vh;
   }
-  .heroGeneral {
+  .heroHome {
     background-attachment: scroll;
     background-position-x: left;
     background-position-y: bottom;
@@ -44,7 +44,7 @@
   .margin {
     height: 40vh;
   }
-  .heroGeneral {
+  .heroHome {
     background-attachment: scroll;
     background-position-x: left;
     background-position-y: bottom;

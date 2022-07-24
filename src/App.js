@@ -19,8 +19,7 @@ function App() {
   return (
     <>
       <Router>
-        <section className={pathname === "/documentasi" ? "heroRegistration absolute" : "heroGeneral"}>
-          <Header />
+        <Header />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
@@ -31,8 +30,7 @@ function App() {
             <Route exact path="/journal" component={Blog} />
             <Route exact path="/contact" component={Contact} />
           </Switch>
-          <Footer />
-        </section>
+        <Footer />
       </Router>
     </>
   );
